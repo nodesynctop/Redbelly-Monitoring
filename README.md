@@ -1,6 +1,6 @@
 # Redbelly-Monitoring
 
-I have a Mini Monitoring Telegram bot for the Redbelly Testnet network. Anyone who doesn't have monitoring can use it.  Let me know if there are any issues with the bot. Thank you.
+I have a **Mini Monitoring Telegram bot** for the Redbelly Testnet network. Anyone who doesn't have monitoring can use it.  Let me know if there are any issues with the bot. Thank you.
 
 ## **Step 1: Add the following code: If you have already completed Step 1 and Step 2, please skip this.**
 
