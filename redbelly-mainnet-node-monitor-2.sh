@@ -17,7 +17,6 @@ check_ssl() {
     if [ -n "$SSL_CHECK" ]; then
         SSL_VALID=$((($(date +%s -d "$SSL_CHECK") - $(date +%s)) / 86400))
         echo "SSL left: $SSL_VALID days"
-SSL_VALID=10
         # Chỉ gửi cảnh báo nếu SSL_VALID < 15
         if [ "$SSL_VALID" -lt 15 ]; then
             send_telegram "🔴 <b>WARNING: SSL will expire in $SSL_VALID days.</b>"
